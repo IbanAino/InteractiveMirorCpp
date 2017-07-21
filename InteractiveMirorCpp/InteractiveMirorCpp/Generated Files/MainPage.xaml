@@ -8,8 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel x:Name="contentPanel" Margin="120,30,0,0">
-            <TextBlock x:Name="singleText" HorizontalAlignment="Left" Text="Hello World" FontSize="36"/>
+        <StackPanel x:ConnectionId='1' x:Name="contentPanel" Margin="120,30,0,0">
+            <TextBlock x:ConnectionId='2' x:Name="singleText" HorizontalAlignment="Left" Text="Hello World" FontSize="36"/>
         </StackPanel>
     </Grid>
 </Page>
+
